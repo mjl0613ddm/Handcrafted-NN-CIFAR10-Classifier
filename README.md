@@ -19,10 +19,10 @@ pip install scikit-learn==1.2.0
 `python test.py --model_path checkpoints/global_best_model.npz`
 
 ## 注意事项
-下载CIFAR-10数据集至同一路径
-下载预训练权重至
-运行python test.py查看准确率
-参数调整在config.py文件
+下载CIFAR-10数据集至同一路径\
+下载预训练权重至\
+运行python test.py查看准确率\
+参数调整在config.py文件\
 
 ## 训练结果
 epoch设置为50，最佳验证集准确率为53.16%
