@@ -3,20 +3,20 @@ Manually implement three-layer neural network, supporting backpropagation, hyper
 手动实现三层神经网络，支持反向传播、超参数搜索与权重可视化。
 ## Quick Start 快速开始
 ### 安装核心依赖
-'''
+```
 pip install numpy==1.23.5
 pip install matplotlib==3.6.0
 pip install scikit-learn==1.2.0
-'''
+```
 
 ## 使用默认参数训练
-python train.py
+`python train.py`
 
 ## 运行超参数搜索（需较长时间）
-python hyperparam_search.py
+`python hyperparam_search.py`
 
 ## 使用最佳模型测试（需先下载模型权重）
-python test.py --model_path checkpoints/global_best_model.npz
+`python test.py --model_path checkpoints/global_best_model.npz`
 
 ## 注意事项
 下载CIFAR-10数据集至同一路径
