@@ -3,9 +3,9 @@ Manually implement three-layer neural network, supporting backpropagation, hyper
 手动实现三层神经网络，支持反向传播、超参数搜索与权重可视化。
 ## Quick Start 快速开始
 ###安装核心依赖
-pip install numpy==1.23.5   
-pip install matplotlib==3.6.0  
-pip install scikit-learn==1.2.0  
+<pip install numpy==1.23.5>
+<pip install matplotlib==3.6.0>
+<pip install scikit-learn==1.2.0>
 
 ## 使用默认参数训练
 python train.py
