@@ -21,7 +21,7 @@ pip install scikit-learn==1.2.0
 ## 注意事项
 下载CIFAR-10数据集至同一路径\
 下载预训练权重至\
-`https://drive.google.com/drive/folders/1k6qKMQDAoDmWkLnUk9OfJevzV5F_10rK?usp=share_link`
+`https://drive.google.com/drive/folders/1k6qKMQDAoDmWkLnUk9OfJevzV5F_10rK?usp=share_link`\
 并将文件夹放置与__init__.py同一目录下\
 运行python test.py查看准确率\
 参数调整在config.py文件
